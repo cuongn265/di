@@ -1,0 +1,65 @@
+.self-container {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.carousel-inner {
+  .item img {
+    width: 100%;
+  }
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-indicators {
+  li {
+    border: 1px solid #255f99;
+    &.active {
+      background: #255f99
+    }
+  }
+}
+
+.carousel-control {
+  width: 50px;
+  height: 100px;
+  margin: auto;
+  background-image: none;
+  background-color: black;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+
+  &.left {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+  }
+
+  .glyphicon {
+    position: absolute;
+    top: 40%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px;
+    font-size: 36px;
+
+    &.left {
+      left: 40%;
+      margin-left: -10px;
+    }
+    &.right {
+      right: 30%;
+      margin-right: -10px;
+    }
+  }
+}
